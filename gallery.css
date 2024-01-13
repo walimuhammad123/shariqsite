@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+
+    display: grid;
+    grid-template-columns: repeat(3,33.3vw);
+    grid-template-rows: repeat(2,18vw);
+    
+}
+
+.container div {
+    /* border: 1px solid white; */
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JAVASCRIPT</h1>
+    
+    <input type="text" id="number1">
+    <input type="text" id="number2">
+
+    <button onclick="addvalue()">ADD VALUE</button>
+
+    <script>
+
+        function addvalue(){
+
+          var abc = document.getElementById('number1').value;
+            var num1 = parseInt(abc);
+
+          var def = document.getElementById('number2').value;
+          var num2 = parseInt(def);
+
+          var xyz = num1 + num2;
+
+         
+          alert(xyz);
+
+        }
+
+
+
+
+    //     var abc = 5;
+    //     var def = 5;
+    //     xyz = abc + def;
+    //    alert(xyz);
+    //     document.write(xyz);
+    </script>
+</body>
+</html>
